@@ -1,5 +1,5 @@
 def plus(a, b):
-  retrun(int(a) + int(b))
+  return(int(a) + int(b))
 
 def minus(a, b):
   return(int(a) - int(b))
@@ -14,7 +14,7 @@ def negation(a):
   return(-int(a))
 
 def power(a, b):
-  return(int(a) ** )
+  return(int(a) ** int(b))
 
 print(plus(99, 1))
 print(minus(100, "1"))
