@@ -1,63 +1,24 @@
 def plus(a, b):
-  a = int(a)
-  b = int(b)
-
-  plus_result = a + b
-
-  print(f"{a}+{b}={plus_result}")
-
-plus(100, 9)
-
+  retrun(int(a) + int(b))
 
 def minus(a, b):
-  a = int(a)
-  b = int(b)
+  return(int(a) - int(b))
 
-  minus_result = a - b
-
-  print(f"{a}-{b}={minus_result}")
-
-minus(100, 9)
-
-
-def time(a, b):
-  a = int(a)
-  b = int(b)
-
-  time_result = a * b
-
-  print(f"{a}*{b}={time_result}")
-
-time(100, 9)
-
+def times(a, b):
+  return(int(a) * int(b))
 
 def division(a, b):
-  a = int(a)
-  b = int(b)
-
-  division_result = a / b
-
-  print(f"{a}/{b}={division_result}")
-
-division(100, 9)
-
+  return(int(a) / int(b))
 
 def negation(a):
-  a = int(a)
-
-  negation_result = -a
-
-  print(f"negation of {a}={negation_result}")
-
-negation(100)
-
+  return(-int(a))
 
 def power(a, b):
-  a = int(a)
-  b = int(b)
+  return(int(a) ** )
 
-  power_result = a ** b
-
-  print(f"{a}**{b}={power_result}")
-
-power(2, 9)
+print(plus(99, 1))
+print(minus(100, "1"))
+print(times(2, 40))
+print(division(1, "3"))
+print(negation(100, 10))
+print(power(2, 10))
